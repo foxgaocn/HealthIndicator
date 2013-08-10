@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEABE25717B5F5C300A62435 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEABE25617B5F5C300A62435 /* UIKit.framework */; };
+		CEABE25917B5F5C300A62435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEABE25817B5F5C300A62435 /* Foundation.framework */; };
+		CEABE25B17B5F5C300A62435 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEABE25A17B5F5C300A62435 /* CoreGraphics.framework */; };
+		CEABE25D17B5F5C300A62435 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEABE25C17B5F5C300A62435 /* CoreData.framework */; };
+		CEABE26317B5F5C300A62435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEABE26117B5F5C300A62435 /* InfoPlist.strings */; };
+		CEABE26517B5F5C300A62435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABE26417B5F5C300A62435 /* main.m */; };
+		CEABE26917B5F5C300A62435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABE26817B5F5C300A62435 /* AppDelegate.m */; };
+		CEABE26B17B5F5C300A62435 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEABE26A17B5F5C300A62435 /* Default.png */; };
+		CEABE26D17B5F5C300A62435 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEABE26C17B5F5C300A62435 /* Default@2x.png */; };
+		CEABE26F17B5F5C300A62435 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEABE26E17B5F5C300A62435 /* Default-568h@2x.png */; };
+		CEABE27217B5F5C300A62435 /* HealthIndicator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEABE27017B5F5C300A62435 /* HealthIndicator.xcdatamodeld */; };
+		CEABE27517B5F5C300A62435 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABE27417B5F5C300A62435 /* MasterViewController.m */; };
+		CEABE27817B5F5C300A62435 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABE27717B5F5C300A62435 /* DetailViewController.m */; };
+		CEABE27B17B5F5C300A62435 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEABE27917B5F5C300A62435 /* MasterViewController.xib */; };
+		CEABE27E17B5F5C300A62435 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEABE27C17B5F5C300A62435 /* DetailViewController.xib */; };
+		CEABE28617B5F5C300A62435 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEABE28517B5F5C300A62435 /* SenTestingKit.framework */; };
+		CEABE28717B5F5C300A62435 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEABE25617B5F5C300A62435 /* UIKit.framework */; };
+		CEABE28817B5F5C300A62435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEABE25817B5F5C300A62435 /* Foundation.framework */; };
+		CEABE28917B5F5C300A62435 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEABE25C17B5F5C300A62435 /* CoreData.framework */; };
+		CEABE29117B5F5C300A62435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEABE28F17B5F5C300A62435 /* InfoPlist.strings */; };
+		CEABE29417B5F5C300A62435 /* HealthIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABE29317B5F5C300A62435 /* HealthIndicatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEABE28A17B5F5C300A62435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEABE24B17B5F5C300A62435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEABE25217B5F5C300A62435;
+			remoteInfo = HealthIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEABE25317B5F5C300A62435 /* HealthIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEABE25617B5F5C300A62435 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEABE25817B5F5C300A62435 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEABE25A17B5F5C300A62435 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEABE25C17B5F5C300A62435 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEABE26017B5F5C300A62435 /* HealthIndicator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HealthIndicator-Info.plist"; sourceTree = "<group>"; };
+		CEABE26217B5F5C300A62435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEABE26417B5F5C300A62435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEABE26617B5F5C300A62435 /* HealthIndicator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthIndicator-Prefix.pch"; sourceTree = "<group>"; };
+		CEABE26717B5F5C300A62435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEABE26817B5F5C300A62435 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEABE26A17B5F5C300A62435 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CEABE26C17B5F5C300A62435 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEABE26E17B5F5C300A62435 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEABE27117B5F5C300A62435 /* HealthIndicator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthIndicator.xcdatamodel; sourceTree = "<group>"; };
+		CEABE27317B5F5C300A62435 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CEABE27417B5F5C300A62435 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CEABE27617B5F5C300A62435 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CEABE27717B5F5C300A62435 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CEABE27A17B5F5C300A62435 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		CEABE27D17B5F5C300A62435 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		CEABE28417B5F5C300A62435 /* HealthIndicatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthIndicatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEABE28517B5F5C300A62435 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEABE28E17B5F5C300A62435 /* HealthIndicatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HealthIndicatorTests-Info.plist"; sourceTree = "<group>"; };
+		CEABE29017B5F5C300A62435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEABE29217B5F5C300A62435 /* HealthIndicatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthIndicatorTests.h; sourceTree = "<group>"; };
+		CEABE29317B5F5C300A62435 /* HealthIndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthIndicatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEABE25017B5F5C300A62435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABE25717B5F5C300A62435 /* UIKit.framework in Frameworks */,
+				CEABE25917B5F5C300A62435 /* Foundation.framework in Frameworks */,
+				CEABE25B17B5F5C300A62435 /* CoreGraphics.framework in Frameworks */,
+				CEABE25D17B5F5C300A62435 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABE28017B5F5C300A62435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABE28617B5F5C300A62435 /* SenTestingKit.framework in Frameworks */,
+				CEABE28717B5F5C300A62435 /* UIKit.framework in Frameworks */,
+				CEABE28817B5F5C300A62435 /* Foundation.framework in Frameworks */,
+				CEABE28917B5F5C300A62435 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEABE24A17B5F5C300A62435 = {
+			isa = PBXGroup;
+			children = (
+				CEABE25E17B5F5C300A62435 /* HealthIndicator */,
+				CEABE28C17B5F5C300A62435 /* HealthIndicatorTests */,
+				CEABE25517B5F5C300A62435 /* Frameworks */,
+				CEABE25417B5F5C300A62435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEABE25417B5F5C300A62435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEABE25317B5F5C300A62435 /* HealthIndicator.app */,
+				CEABE28417B5F5C300A62435 /* HealthIndicatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEABE25517B5F5C300A62435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEABE25617B5F5C300A62435 /* UIKit.framework */,
+				CEABE25817B5F5C300A62435 /* Foundation.framework */,
+				CEABE25A17B5F5C300A62435 /* CoreGraphics.framework */,
+				CEABE25C17B5F5C300A62435 /* CoreData.framework */,
+				CEABE28517B5F5C300A62435 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEABE25E17B5F5C300A62435 /* HealthIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				CEABE26717B5F5C300A62435 /* AppDelegate.h */,
+				CEABE26817B5F5C300A62435 /* AppDelegate.m */,
+				CEABE27317B5F5C300A62435 /* MasterViewController.h */,
+				CEABE27417B5F5C300A62435 /* MasterViewController.m */,
+				CEABE27617B5F5C300A62435 /* DetailViewController.h */,
+				CEABE27717B5F5C300A62435 /* DetailViewController.m */,
+				CEABE27917B5F5C300A62435 /* MasterViewController.xib */,
+				CEABE27C17B5F5C300A62435 /* DetailViewController.xib */,
+				CEABE27017B5F5C300A62435 /* HealthIndicator.xcdatamodeld */,
+				CEABE25F17B5F5C300A62435 /* Supporting Files */,
+			);
+			path = HealthIndicator;
+			sourceTree = "<group>";
+		};
+		CEABE25F17B5F5C300A62435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEABE26017B5F5C300A62435 /* HealthIndicator-Info.plist */,
+				CEABE26117B5F5C300A62435 /* InfoPlist.strings */,
+				CEABE26417B5F5C300A62435 /* main.m */,
+				CEABE26617B5F5C300A62435 /* HealthIndicator-Prefix.pch */,
+				CEABE26A17B5F5C300A62435 /* Default.png */,
+				CEABE26C17B5F5C300A62435 /* Default@2x.png */,
+				CEABE26E17B5F5C300A62435 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEABE28C17B5F5C300A62435 /* HealthIndicatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEABE29217B5F5C300A62435 /* HealthIndicatorTests.h */,
+				CEABE29317B5F5C300A62435 /* HealthIndicatorTests.m */,
+				CEABE28D17B5F5C300A62435 /* Supporting Files */,
+			);
+			path = HealthIndicatorTests;
+			sourceTree = "<group>";
+		};
+		CEABE28D17B5F5C300A62435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEABE28E17B5F5C300A62435 /* HealthIndicatorTests-Info.plist */,
+				CEABE28F17B5F5C300A62435 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEABE25217B5F5C300A62435 /* HealthIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEABE29717B5F5C300A62435 /* Build configuration list for PBXNativeTarget "HealthIndicator" */;
+			buildPhases = (
+				CEABE24F17B5F5C300A62435 /* Sources */,
+				CEABE25017B5F5C300A62435 /* Frameworks */,
+				CEABE25117B5F5C300A62435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthIndicator;
+			productName = HealthIndicator;
+			productReference = CEABE25317B5F5C300A62435 /* HealthIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEABE28317B5F5C300A62435 /* HealthIndicatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEABE29A17B5F5C300A62435 /* Build configuration list for PBXNativeTarget "HealthIndicatorTests" */;
+			buildPhases = (
+				CEABE27F17B5F5C300A62435 /* Sources */,
+				CEABE28017B5F5C300A62435 /* Frameworks */,
+				CEABE28117B5F5C300A62435 /* Resources */,
+				CEABE28217B5F5C300A62435 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEABE28B17B5F5C300A62435 /* PBXTargetDependency */,
+			);
+			name = HealthIndicatorTests;
+			productName = HealthIndicatorTests;
+			productReference = CEABE28417B5F5C300A62435 /* HealthIndicatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEABE24B17B5F5C300A62435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "harry gao";
+			};
+			buildConfigurationList = CEABE24E17B5F5C300A62435 /* Build configuration list for PBXProject "HealthIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEABE24A17B5F5C300A62435;
+			productRefGroup = CEABE25417B5F5C300A62435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEABE25217B5F5C300A62435 /* HealthIndicator */,
+				CEABE28317B5F5C300A62435 /* HealthIndicatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEABE25117B5F5C300A62435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABE26317B5F5C300A62435 /* InfoPlist.strings in Resources */,
+				CEABE26B17B5F5C300A62435 /* Default.png in Resources */,
+				CEABE26D17B5F5C300A62435 /* Default@2x.png in Resources */,
+				CEABE26F17B5F5C300A62435 /* Default-568h@2x.png in Resources */,
+				CEABE27B17B5F5C300A62435 /* MasterViewController.xib in Resources */,
+				CEABE27E17B5F5C300A62435 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABE28117B5F5C300A62435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABE29117B5F5C300A62435 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEABE28217B5F5C300A62435 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEABE24F17B5F5C300A62435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABE26517B5F5C300A62435 /* main.m in Sources */,
+				CEABE26917B5F5C300A62435 /* AppDelegate.m in Sources */,
+				CEABE27217B5F5C300A62435 /* HealthIndicator.xcdatamodeld in Sources */,
+				CEABE27517B5F5C300A62435 /* MasterViewController.m in Sources */,
+				CEABE27817B5F5C300A62435 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABE27F17B5F5C300A62435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABE29417B5F5C300A62435 /* HealthIndicatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEABE28B17B5F5C300A62435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEABE25217B5F5C300A62435 /* HealthIndicator */;
+			targetProxy = CEABE28A17B5F5C300A62435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEABE26117B5F5C300A62435 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEABE26217B5F5C300A62435 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEABE27917B5F5C300A62435 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEABE27A17B5F5C300A62435 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEABE27C17B5F5C300A62435 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEABE27D17B5F5C300A62435 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEABE28F17B5F5C300A62435 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEABE29017B5F5C300A62435 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEABE29517B5F5C300A62435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEABE29617B5F5C300A62435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEABE29817B5F5C300A62435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HealthIndicator/HealthIndicator-Prefix.pch";
+				INFOPLIST_FILE = "HealthIndicator/HealthIndicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEABE29917B5F5C300A62435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HealthIndicator/HealthIndicator-Prefix.pch";
+				INFOPLIST_FILE = "HealthIndicator/HealthIndicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEABE29B17B5F5C300A62435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HealthIndicator.app/HealthIndicator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HealthIndicator/HealthIndicator-Prefix.pch";
+				INFOPLIST_FILE = "HealthIndicatorTests/HealthIndicatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEABE29C17B5F5C300A62435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HealthIndicator.app/HealthIndicator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HealthIndicator/HealthIndicator-Prefix.pch";
+				INFOPLIST_FILE = "HealthIndicatorTests/HealthIndicatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEABE24E17B5F5C300A62435 /* Build configuration list for PBXProject "HealthIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABE29517B5F5C300A62435 /* Debug */,
+				CEABE29617B5F5C300A62435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEABE29717B5F5C300A62435 /* Build configuration list for PBXNativeTarget "HealthIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABE29817B5F5C300A62435 /* Debug */,
+				CEABE29917B5F5C300A62435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEABE29A17B5F5C300A62435 /* Build configuration list for PBXNativeTarget "HealthIndicatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABE29B17B5F5C300A62435 /* Debug */,
+				CEABE29C17B5F5C300A62435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEABE27017B5F5C300A62435 /* HealthIndicator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEABE27117B5F5C300A62435 /* HealthIndicator.xcdatamodel */,
+			);
+			currentVersion = CEABE27117B5F5C300A62435 /* HealthIndicator.xcdatamodel */;
+			path = HealthIndicator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEABE24B17B5F5C300A62435 /* Project object */;
+}
