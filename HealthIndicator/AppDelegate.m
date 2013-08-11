@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 
 #import "MasterViewController.h"
+#import "PersonViewController.h"
+#import "DataAccessor.h"
 
 @implementation AppDelegate
 
@@ -21,9 +23,20 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 
+    DataAccessor* globalDataAccessor = [[DataAccessor alloc] initWithManagedDataContext:self.managedObjectContext];
+    
+    
+    //PersonViewController *ctrl = [[PersonViewController alloc] init];
+    
     MasterViewController *masterViewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
-    masterViewController.managedObjectContext = self.managedObjectContext;
+    masterViewController.dataAccessor = globalDataAccessor;
+ 
+    
+    //self.navigationController = [[UINavigationController alloc] initWithRootViewController:ctrl];
+    //ctrl.dataAccessor = globalDataAccessor;
+
+    
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;

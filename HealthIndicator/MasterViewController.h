@@ -2,21 +2,23 @@
 //  MasterViewController.h
 //  HealthIndicator
 //
-//  Created by gaohy on 10/08/13.
+//  Created by gaohy on 11/08/13.
 //  Copyright (c) 2013 harry gao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "PDataAccessor.h"
 
-@class DetailViewController;
+@interface MasterViewController : UIViewController
 
-#import <CoreData/CoreData.h>
+@property (nonatomic, strong) id<PDataAccessor> dataAccessor;
 
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak, nonatomic) IBOutlet UIView *noDataView;
+@property (weak, nonatomic) IBOutlet UIView *dataView;
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
 
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
-@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-
+-(IBAction)personalViewClicked:(id)sender;
+-(IBAction)dietViewClicked:(id)sender;
 @end
